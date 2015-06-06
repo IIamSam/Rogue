@@ -18,6 +18,12 @@
     <ClCompile Include="roguelike.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="actor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\lib\pdcurses.lib">
@@ -26,6 +32,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\inlcude\curses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="actor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
